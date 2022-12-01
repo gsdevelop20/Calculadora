@@ -145,7 +145,7 @@ sub.addEventListener("click",function(){
     updateScreen ='';
     document.getElementById("s").innerHTML = "-";
     
-    console.log(n1)
+    
 
 })
 
@@ -211,7 +211,7 @@ if (op === "+"){
     
     
 }else if(op === "/"){
-    
+
     var result = parseFloat(n1) / parseFloat(n2);
     document.getElementById("s").innerHTML = result.toFixed(2);
     if( isFloat(result) == true){
