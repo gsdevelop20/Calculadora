@@ -1,0 +1,76 @@
+html, body{
+    height: 100%;
+    box-sizing: border-box;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenier{
+    width: 325px;
+    height: 570px;
+    background-color: rgb(0, 183, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 30px;
+    
+
+}
+.screem{
+    width: 100%;
+    height: 20%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tela{
+    width:80% ;
+    height: 60%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.num{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.num-simb{
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+#igual{
+    width: 217px;
+}
+#igua{
+    width: 110px;
+}
+#s{
+    text-align: right;
+    margin-right: 3px;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
